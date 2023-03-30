@@ -1,5 +1,5 @@
 plugins {
-    id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.7"
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.22"
     id 'java'
 }
 
