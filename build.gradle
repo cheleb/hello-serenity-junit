@@ -17,7 +17,7 @@ ext {
     serenityCoreVersion = '3.7.1'
     junitVersion = '5.9.3'
     assertJVersion = '3.24.2'
-    lombokVersion = '1.18.26'
+    lombokVersion = '1.18.28'
     logbackVersion = '1.4.7'
 }
 
