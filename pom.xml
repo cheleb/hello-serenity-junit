@@ -33,7 +33,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.4.9</version>
+            <version>1.5.5</version>
         </dependency>
         <!-- JUNIT 5 DEPENDENCY-->
         <dependency>
