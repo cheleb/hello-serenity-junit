@@ -1,7 +1,7 @@
 package starter.wikipedia;
 
 import net.serenitybdd.core.steps.UIInteractions;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 import org.openqa.selenium.Keys;
 
 public class SearchActions extends UIInteractions {
