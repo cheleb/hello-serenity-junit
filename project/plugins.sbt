@@ -1,3 +1,3 @@
 addSbtPlugin(
-  "net.serenitybdd.plugins.sbt" % "serenitysbtplugin" % "1.2.1-SNAPSHOT"
+  "dev.cheleb" % "sbt-serenity" % "0.0.2"
 )
