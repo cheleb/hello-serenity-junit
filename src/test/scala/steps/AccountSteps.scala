@@ -8,9 +8,8 @@ class AccountSteps extends ScalaDsl with EN {
 
   var accounts: List[Account] = List()
 
-  @io.cucumber.java.DataTableType
-  def iii(map: java.util.Map[String, String]): Account = {
-    Account(map.get("account"), map.get("balance").toDouble)
+  DataTableType { (entry: Map[String, String]) =>
+    Account(entry("account"), entry("balance").toDouble)
   }
 
   Given("""Tess has the following accounts:""") {
