@@ -15,3 +15,5 @@ libraryDependencies ++= Seq(
 ) ++ Dependencies.munit ++ Dependencies.cucumber
 
 Test / testOptions := Seq(Tests.Argument(TestFrameworks.JUnit, "-a"))
+
+logLevel := Level.Debug
