@@ -16,4 +16,4 @@ libraryDependencies ++= Seq(
 
 Test / testOptions := Seq(Tests.Argument(TestFrameworks.JUnit, "-a"))
 
-logLevel := Level.Debug
+//logLevel := Level.Debug
