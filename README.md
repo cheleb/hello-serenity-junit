@@ -17,3 +17,6 @@ Both of the commands provided above will produce a Serenity test report in the `
 ```bash
 open target/site/serenity/index.html
 ```
+
+
+![Serenity BDD](doc/serenity-dashboard.png)
