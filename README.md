@@ -2,6 +2,8 @@
 
 Get started quickly with Serenity BDD and JUnit 5 with this simple starter project. 
 
+Illustrates how to write a simple Serenity BDD test using JUnit 5 and [SBT serenity plugin](https://github.com/cheleb/sbt-serenity/).
+
 
 ## Running the tests
 
