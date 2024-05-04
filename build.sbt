@@ -7,6 +7,7 @@ val serenityVersion = "4.1.9"
 libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % "2.0.22",
   "com.novocode" % "junit-interface" % "0.11" % Test,
+  "org.scalameta" %% "munit" % "0.7.29" % Test,
   "org.assertj" % "assertj-core" % "3.25.3" % Test,
   "net.serenity-bdd" % "serenity-core" % serenityVersion % Test,
   "net.serenity-bdd" % "serenity-junit5" % serenityVersion % Test,

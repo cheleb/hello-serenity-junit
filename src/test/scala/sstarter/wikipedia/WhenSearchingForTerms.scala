@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import org.assertj.core.api.Assertions.assertThat;
 import net.serenitybdd.annotations.Managed
+import scala.compiletime.uninitialized;
 
 @ExtendWith(Array(classOf[SerenityJUnit5Extension]))
 class WhenSearchingForTerms {
@@ -16,22 +17,22 @@ class WhenSearchingForTerms {
   /** Define the webdriver instance to be used for these tests
     */
   @Managed(driver = "chrome", options = "headless")
-  var driver: WebDriver = _
+  var driver: WebDriver = uninitialized
 
   /** Navigation actions. This is a UIInteraction class so it will be
     * instantiated automatically by Serenity.
     */
-  var navigate: NavigateActions = _
+  var navigate: NavigateActions = uninitialized
 
   /** Actions related to searches. This is a UIInteraction class so it will be
     * instantiated automatically by Serenity.
     */
-  var search: SearchActions = _
+  var search: SearchActions = uninitialized
 
   /** A page object representing a Wikipedia article that is currently appearing
     * in the browser. Page Objects are automatically initialised by Serenity.
     */
-  var displayedArticle: DisplayedArticle = _
+  var displayedArticle: DisplayedArticle = uninitialized
 
   @Test
   def searchBySingleKeyword(): Unit = {
