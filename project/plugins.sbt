@@ -1,6 +1,6 @@
-val serenityVersion = "4.1.10"
+val serenityVersion = "4.1.12"
 addSbtPlugin(
-  "dev.cheleb" % "sbt-serenity" % "0.0.3"
+  "dev.cheleb" % "sbt-serenity" % "local"
 )
 libraryDependencies ++= Seq(
   "net.serenity-bdd" % "serenity-single-page-report" % serenityVersion,

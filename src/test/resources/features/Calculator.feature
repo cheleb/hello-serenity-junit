@@ -1,6 +1,7 @@
 Feature: Calculator
+  This is a calculator feature, which will be used to perform basic arithmetic operations.
   @release:iteration-1
-  @Department:IT
+  @Department:Math
   Rule: Members should be able to count
     Scenario: Addition
       Given 2 numbers 1 and 10

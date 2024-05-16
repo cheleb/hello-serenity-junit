@@ -1,8 +1,8 @@
 enablePlugins(SerenitySbtPlugin)
 
-scalaVersion := "3.4.1"
+scalaVersion := "3.4.2"
 
-val serenityVersion = "4.1.9"
+val serenityVersion = "4.1.12"
 
 libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % "2.0.22",
